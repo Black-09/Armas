@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /tmp/
+
+# Reglas específicas para crawlers de IA
+User-agent: Gemini
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+# Bloqueo de archivos específicos (opcional)
+Disallow: /config.php
+Disallow: /database/
+Disallow: /logs/
+
+# Sitemap (recomendado)
+Sitemap: http://armassniperelite5.infy.uk/sitemap.xml
