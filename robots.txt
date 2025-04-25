@@ -7,8 +7,6 @@ Disallow: /tmp/
 # Reglas específicas para crawlers de IA
 User-agent: Gemini
 Allow: /
-User-agent: ChatGPT-User
-Allow: /
 User-agent: CCBot
 Allow: /
 User-agent: Google-Extended
